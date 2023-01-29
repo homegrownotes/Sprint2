@@ -1,26 +1,5 @@
 @charset "UTF-8";
-/* Barra de navegacion */
-/* Contenido principal */
-.fondo-right {
-  width: 430px;
-  height: 270px;
-  background-color: #536ADD;
-  border-bottom-left-radius: 40%;
-  position: relative;
-  left: 170px;
-  top: 140px;
-}
-
-.img-right {
-  position: absolute;
-  top: 150px;
-}
-
-.btn {
-  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.5);
-  padding: 30px;
-}
-
+/* Definición variables */
 /*!
  * Bootstrap  v5.3.0-alpha1 (https://getbootstrap.com/)
  * Copyright 2011-2022 The Bootstrap Authors
@@ -11859,4 +11838,111 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important;
   }
-}/*# sourceMappingURL=custom.css.map */
+}
+/* Exercici_1 */
+/* NAVBAR */
+.navbar-nav {
+  --bs-nav-link-hover-color: rgb(251, 63, 71);
+}
+
+.nav-item {
+  font-size: small;
+  font-weight: bold;
+}
+
+.btn {
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.5);
+  font-size: smaller;
+  font-weight: bold;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.btn.btn-danger {
+  font-size: x-small;
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-top: 1px;
+  margin-bottom: 1px;
+  letter-spacing: 0.2rem;
+  font-weight: bold;
+  opacity: 0.9;
+}
+
+.btn.btn-danger:hover {
+  background-color: white;
+  color: rgb(251, 63, 71);
+}
+
+.btn.btn-primary:hover {
+  background-color: white;
+  color: #536ADD;
+}
+
+.btn.btn-light:hover {
+  background-color: white;
+  border-color: #14213d;
+}
+
+/* HERO */
+.fondo-right {
+  width: 500px;
+  height: 343px;
+  background-color: #536ADD;
+  border-bottom-left-radius: 35%;
+  position: relative;
+  left: 200px;
+  top: 159px;
+}
+
+.img-right {
+  position: absolute;
+  top: 225px;
+  left: 979px;
+}
+
+/* RESPONSIVE */
+@media all and (max-width: 576PX) {
+  .img-right {
+    right: -41px;
+    left: 58px;
+  }
+  .fondo-right {
+    width: 470px;
+    height: 259px;
+    border-bottom-left-radius: 45%;
+    left: 140px;
+    top: 30px;
+  }
+  .navbar-brand {
+    padding-left: 60px;
+  }
+  .mt-4 {
+    margin-top: 27px !important;
+    text-align: center;
+    justify-content: center;
+    margin-left: 124px;
+    margin-right: 44px;
+  }
+  .pe-5 {
+    padding-right: 0px !important;
+    padding-left: 109px;
+    padding-bottom: -300px;
+    font-size: 43px;
+    text-align: center;
+  }
+  .resp {
+    margin-top: 200px;
+  }
+  h5 > br, .h5 > br {
+    display: none;
+  }
+  .btn {
+    margin-left: 109px;
+    padding: 18px;
+    font-size: large;
+  }
+}
+/* End exercici_1 *//*# sourceMappingURL=custom.css.map */
