@@ -11996,6 +11996,31 @@ textarea.form-control-lg {
   border-bottom-right-radius: 3;
 }
 
+/* Exercici_5 */
+.fondo-footer {
+  background-color: #536ADD;
+  height: 350px;
+}
+
+.bg-footer {
+  background-color: #242946;
+}
+
+.form-border {
+  border-top-right-radius: 3;
+  border-bottom-right-radius: 3;
+}
+
+.white {
+  color: white;
+  opacity: 0.8;
+}
+
+.input-group {
+  border-top-right-radius: 1;
+  border-bottom-right-radius: 1;
+}
+
 /*  RESPONSIVE */
 @media all and (max-width: 576PX) {
   .img-left {
