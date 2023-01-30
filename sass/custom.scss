@@ -141,6 +141,25 @@ $secondary:#14213d;
     font-weight: 500 !important;
 }
 
+/* Exercici_4 */
+
+.form-control {
+    padding: 0.375rem 2.45rem;
+    font-weight: 300;
+
+}
+.fondo-footer{
+background-color: #536ADD;
+height: 350px;  
+}
+.bg-footer{
+background-color: #242946
+}
+.form-border {
+ border-top-right-radius: 3;
+ border-bottom-right-radius: 3;
+}
+
 
 /*  RESPONSIVE */
 
@@ -209,4 +228,5 @@ $secondary:#14213d;
         padding-left: 53px;
         border-top: 1px solid gray; 
     }
+
 }
