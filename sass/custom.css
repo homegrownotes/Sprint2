@@ -12016,11 +12016,6 @@ textarea.form-control-lg {
   opacity: 0.8;
 }
 
-.input-group {
-  border-top-right-radius: 1;
-  border-bottom-right-radius: 1;
-}
-
 /*  RESPONSIVE */
 @media all and (max-width: 576PX) {
   .img-left {
